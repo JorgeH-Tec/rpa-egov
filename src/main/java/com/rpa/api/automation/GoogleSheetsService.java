@@ -86,7 +86,7 @@ public class GoogleSheetsService {
 
             String textoColunaA = linha.get(0).toString().trim();
 
-            if (textoColunaA.isEmpty() || textoColunaA.toUpperCase().contains("PROAMIS")) {
+            if (textoColunaA.isEmpty()) {
                 linhaAtualPlanilha++;
                 continue;
             }
